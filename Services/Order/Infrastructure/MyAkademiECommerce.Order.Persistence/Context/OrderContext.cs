@@ -13,7 +13,7 @@ namespace MyAkademiECommerce.Order.Persistence.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=localhost,1433;database=ECommerceDiscountDB;user=sa;password=123456aA*");
+            optionsBuilder.UseSqlServer("Server=localhost,1450;database=ECommerceDiscountDB;user=sa;password=123456aA*");
         }
         public DbSet<Ordering>Orderings { get; set; }
         public DbSet<Address> Address { get; set; }
