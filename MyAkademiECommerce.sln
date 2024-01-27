@@ -43,13 +43,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{6E07F5F6-059B-411D-BCD3-61FB4B540720}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAkademiECommerce.Order.Domain", "Services\Order\Core\MyAkademiECommerce.Order.Domain\MyAkademiECommerce.Order.Domain.csproj", "{22335993-8BB7-455D-9C43-AD0E941CF9B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyAkademiECommerce.Order.Domain", "Services\Order\Core\MyAkademiECommerce.Order.Domain\MyAkademiECommerce.Order.Domain.csproj", "{22335993-8BB7-455D-9C43-AD0E941CF9B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAkademiECommerce.Order.Application", "Services\Order\Core\MyAkademiECommerce.Order.Application\MyAkademiECommerce.Order.Application.csproj", "{B1E88C7C-E7DA-4D18-98BC-6CAF2CA937A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyAkademiECommerce.Order.Application", "Services\Order\Core\MyAkademiECommerce.Order.Application\MyAkademiECommerce.Order.Application.csproj", "{B1E88C7C-E7DA-4D18-98BC-6CAF2CA937A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAkademiECommerce.Order.Persistence", "Services\Order\Infrastructure\MyAkademiECommerce.Order.Persistence\MyAkademiECommerce.Order.Persistence.csproj", "{069DA645-9ACD-43C5-9B07-4B25BA8EDAEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyAkademiECommerce.Order.Persistence", "Services\Order\Infrastructure\MyAkademiECommerce.Order.Persistence\MyAkademiECommerce.Order.Persistence.csproj", "{069DA645-9ACD-43C5-9B07-4B25BA8EDAEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAkademiECommerce.Order.WebApi", "Services\Order\Presentation\MyAkademiECommerce.Order.WebApi\MyAkademiECommerce.Order.WebApi.csproj", "{6D8330A7-88AC-40F1-9C48-1625B1812F02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyAkademiECommerce.Order.WebApi", "Services\Order\Presentation\MyAkademiECommerce.Order.WebApi\MyAkademiECommerce.Order.WebApi.csproj", "{6D8330A7-88AC-40F1-9C48-1625B1812F02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -90,6 +90,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{0350F143-A0E8-4DBA-A5AE-F225BD823F40} = {1B46D051-244A-435A-9B8F-4B6B90D80E5A}
 		{248473CB-5F08-4C4B-99CD-BDC0F80EB518} = {1B46D051-244A-435A-9B8F-4B6B90D80E5A}
 		{A736FF1E-6AEC-43D7-A46F-F3F7F200A888} = {1B46D051-244A-435A-9B8F-4B6B90D80E5A}
 		{381F7F9B-2DB2-4442-AF27-6C30661A5055} = {1B46D051-244A-435A-9B8F-4B6B90D80E5A}
