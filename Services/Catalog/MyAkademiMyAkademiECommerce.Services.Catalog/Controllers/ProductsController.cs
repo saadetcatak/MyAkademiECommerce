@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MyAkademiMyAkademiECommerce.Services.Catalog.Dtos.ProductDtos;
 using MyAkademiMyAkademiECommerce.Services.Catalog.Services.ProductServices;
 
 namespace MyAkademiMyAkademiECommerce.Services.Catalog.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ProductsController : ControllerBase
