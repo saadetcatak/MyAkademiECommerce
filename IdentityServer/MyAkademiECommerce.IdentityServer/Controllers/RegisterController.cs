@@ -12,9 +12,9 @@ namespace MyAkademiECommerce.IdentityServer.Controllers
     [ApiController]
     public class RegisterController : ControllerBase
     {
-        private readonly UserManager<ApplicationBuilder> _userManager;
+        private readonly UserManager<ApplicationUser> _userManager;
 
-        public RegisterController(UserManager<ApplicationBuilder> userManager)
+        public RegisterController(UserManager<ApplicationUser> userManager)
         {
             _userManager = userManager;
         }
@@ -40,7 +40,7 @@ namespace MyAkademiECommerce.IdentityServer.Controllers
 
             else
             {
-                return Ok("Hata");
+                return Ok("Bir Hata Oluştu");
             }
         }
     }
